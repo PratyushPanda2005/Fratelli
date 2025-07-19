@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
-
 @font-face {
-    font-family: Clash Display;
-    src: url('/font/ClashDisplay/TTF/ClashDisplay-Variable.ttf');
-     font-display: swap;
+  font-family: Clash Display;
+  src: url("/font/ClashDisplay/TTF/ClashDisplay-Variable.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Mr Sheffield;
-    src: url('/font/MrSheffield/Mr-Sheffield.ttf');
-     font-display: swap;
+  font-family: Mr Sheffield;
+  src: url("/font/MrSheffield/Mr-Sheffield.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Caveat;
-    src: url('/font/Caveat/Caveat-VariableFont_wght.ttf');
-     font-display: swap;
+  font-family: Caveat;
+  src: url("/font/Caveat/Caveat-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
-@theme inline{
-    --font-clashdisplay: Clash Display;
-    --font-sheffield: Mr Sheffield;
-    --font-caveat: Caveat
+@theme inline {
+  --font-clashdisplay: Clash Display;
+  --font-sheffield: Mr Sheffield;
+  --font-caveat: Caveat;
+}
+
+.wine-section-rotated-text {
+  color: rgba(162, 69, 79, 0);
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: #8e1c21;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transform: rotate(-90deg);
+  opacity: 0.5;
 }

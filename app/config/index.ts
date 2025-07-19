@@ -4,6 +4,9 @@ export const earth_zoom =
 export const fratelliLogo =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839360/Layer_1_ia9uv7.svg'
 
+export const redFratelliLogo = 
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839821/Asset_17_2_b2xrk8.svg'
+
 export const mountain_artline = 
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839290/Group_23_wjlhae.svg'
 
@@ -18,3 +21,15 @@ export const soil_bg =
 
 export const timeline =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752868584/Frame_17212904_mpoj86.svg'
+
+export const team_image =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752903872/Image_s6ojgb.svg'
+
+export const vineyard =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752903939/Image_1_jdnvba.svg'
+
+export const redcut =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839776/Path_3635_lvtzgy.svg'
+
+export const whitecut =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839780/Path_3634_inghnv.svg'
