@@ -15,7 +15,7 @@ const Location = () => {
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
-          className="w-full min-h-screen flex justify-center items-center pt-20 pb-10"
+          className="w-full min-h-screen flex justify-center items-center py-20"
         >
           <div className="h-full w-full flex justify-center items-center">
             <div
@@ -47,24 +47,25 @@ const Location = () => {
                   Celebrated Worldwide.
                 </h3>
               </div>
-              <div className="mt-20 flex justify-center items-center">
+              <div className="mt-24 flex justify-center items-center flex-col">
                 <Image
                   src={wine_bottle}
                   alt="Wine Bottle"
                   width={300}
                   height={300}
-                  className="h-[480px] w-[250px]"
+                  className="h-[480px] w-[250px] translate-y-12"
                 />
+                <h1 className="translate-y-8 uppercase tracking-[2px] font-clashdisplay text-[#8E1C21]">Vineyards</h1>
               </div>
             </div>
           </div>
         </div>
         <Image
-        src={wineLogo}
-        width={160}
-        height={100}
-        alt="Wine Logo"
-        className="absolute top-[20%] left-10 opacity-[0.55]"
+          src={wineLogo}
+          width={160}
+          height={100}
+          alt="Wine Logo"
+          className="absolute top-[20%] left-10 opacity-[0.55]"
         />
       </div>
     </>
