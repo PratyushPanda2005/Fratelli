@@ -34,6 +34,7 @@ const WineDescription = () => {
       >
         <SectionHeading
           className=""
+          fillColour="#ffffff"
           title="Premium Wines"
           titleClass="text-white"
           subtitle="Every Bottle,"

@@ -24,6 +24,7 @@ const SecondDescription = () => {
       >
         <SectionHeading
           className=""
+          fillColour="#8E1C21"
           title="Premium Wines"
           titleClass="text-[#8E1C21]"
           subtitle="Every Bottle,"

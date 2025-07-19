@@ -7,7 +7,8 @@ const SectionHeading = ({
   subtitleClass,
   context,
   contextClass,
-  className
+  className,
+  fillColour
 }: {
   title: string;
   titleClass: string;
@@ -16,6 +17,7 @@ const SectionHeading = ({
   context: string;
   contextClass: string;
   className: string;
+  fillColour?: string;
 }) => {
   return (
     <div className={`${className}`}>
@@ -26,7 +28,7 @@ const SectionHeading = ({
             viewBox="0 0 14 15"
             fill="none"
           >
-            <circle cx="7" cy="7.5" r="7" fill="#000000" />
+            <circle cx="7" cy="7.5" r="7" fill={fillColour} />
           </svg>
         </span>
         {title}
