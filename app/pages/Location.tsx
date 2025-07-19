@@ -1,7 +1,7 @@
 import React from "react";
 import Mountain from "../components/Mountain";
 import Image from "next/image";
-import { background_ouline, wine_bottle } from "../config";
+import { background_ouline, wine_bottle, wineLogo } from "../config";
 
 const Location = () => {
   return (
@@ -59,6 +59,13 @@ const Location = () => {
             </div>
           </div>
         </div>
+        <Image
+        src={wineLogo}
+        width={160}
+        height={100}
+        alt="Wine Logo"
+        className="absolute top-[20%] left-10 opacity-[0.55]"
+        />
       </div>
     </>
   );

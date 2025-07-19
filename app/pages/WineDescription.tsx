@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { redcut, whitecut, wine_bottle } from "../config";
+import { barells, redcut, whitecut, wine_bottle } from "../config";
 import bgRed from "@/public/images/bg.png";
 import SectionHeading from "../components/SectionHeading";
 
@@ -65,6 +65,13 @@ const WineDescription = () => {
             <p className="font-clashdisplay text-white font-light max-w-[95%] text-sm">The Cabernet Sauvignon contributes to the backbone as well as freshness to this exquisite blend. The Petit Verdot, Marselan, and Cabernet Franc grapes paint the wine deep purple and provide luscious flavors of black fruits with structured tannins, a full body and a long, silky finish. It places us to the right bank of Bordeaux, with freshness, notes of spearmint and graphite against a backdrop of cedar, fresh tobacco.</p>
         </div>
         </div>
+              <Image
+                src={barells}
+                alt='Barells'
+                width={400}
+                height={400}
+                className='absolute bottom-0 right-0 w-[240px] h-auto'
+                />
       </div>
        <section
         style={{

@@ -33,3 +33,9 @@ export const redcut =
 
 export const whitecut =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839780/Path_3634_inghnv.svg'
+
+export const barells =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839873/Pattern_giinws.svg'
+
+export const wineLogo =
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839727/Group_7_yzmtg0.svg'
