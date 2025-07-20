@@ -20,7 +20,7 @@ export const soil_bg =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752865022/77119fd0ca907cef5b9bdab4dfde22672e8559ed_fwdzg1.jpg'
 
 export const timeline =
-'https://res.cloudinary.com/db4zbyipc/image/upload/v1752868584/Frame_17212904_mpoj86.svg'
+'https://res.cloudinary.com/db4zbyipc/image/upload/v1752984122/Frame_17212904_1_bq3scl.svg'
 
 export const team_image =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752903872/Image_s6ojgb.svg'

@@ -22,7 +22,7 @@ const Timeline = () => {
     const scrollDistance = imageWidth - containerWidth;
 
     gsap.to(timelineImage, {
-      x: -scrollDistance,
+      x: -scrollDistance - scrollDistance/4,
       ease: "none",
       scrollTrigger: {
         trigger: containerRef.current,
@@ -30,7 +30,6 @@ const Timeline = () => {
         end: `+=${scrollDistance}`,
         pin: true,
         scrub: 1,
-        markers: false, // set to true for debugging
       },
     });
 
@@ -46,11 +45,11 @@ const Timeline = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      className="relative z-50 inset-0 h-screen" // Changed to h-screen for full viewport height
+      className="relative z-50 inset-0 h-screen" 
       ref={containerRef}
     >
       <SectionHeading
-        className="translate-y-24"
+        className="pt-10"
         fillColour="#000000"
         title="Timeline"
         titleClass=""
@@ -60,7 +59,7 @@ const Timeline = () => {
         contextClass="text-[#8E1C21]"
       />
       <div 
-        className="relative h-full w-full overflow-x-hidden" // Changed to overflow-x-hidden
+        className="relative h-full w-full overflow-x-hidden -translate-y-24" 
         ref={timelineRef}
       >
         <div className="h-full flex items-center w-max px-20">
@@ -70,7 +69,7 @@ const Timeline = () => {
             height={300} 
             alt="Timeline" 
             className="object-contain" 
-            priority // Add priority if this is above the fold
+            priority
           />
         </div>
       </div>

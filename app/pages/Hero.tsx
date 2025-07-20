@@ -45,7 +45,7 @@ const Hero = () => {
         <Image
           src={Altitude}
           alt="Altitude"
-          className="absolute bottom-[20%] right-[25vw] w-[84px]"
+          className="absolute bottom-[20%] right-[25vw] w-[84px] hover:scale-150"
         />
         <Image
           src={Vineyard}
