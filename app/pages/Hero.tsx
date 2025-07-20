@@ -16,18 +16,18 @@ const Hero = () => {
       <video
         autoPlay
         muted
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
       >
         <source src={earth_zoom} type="video/mp4" />
       </video>
       <div
-        className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70"
+        className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70 pointer-events-none"
         style={{
           background:
             "radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 100%)",
         }}
       />
-      <div className="h-full w-full absolute top-0 left-0 z-10 px-20 flex  items-end pb-8">
+      <div className="h-full w-full absolute top-0 left-0 z-10 px-20 flex  items-end pb-8 pointer-events-none">
         <div className="w-full flex items-center justify-between">
           <p className="text-white max-w-[25%] font-clashdisplay">
             Where Ancient Earth Met An Audacious Idea — And A Legacy Began To
@@ -43,19 +43,20 @@ const Hero = () => {
       </div>
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 7, duration: 0.3}} className="">
         <Image
+          id="altitude"
           src={Altitude}
           alt="Altitude"
-          className="absolute bottom-[20%] right-[25vw] w-[84px] hover:scale-150"
+          className="absolute bottom-[20%] right-[25vw] w-[84px] hover:scale-105 transition-all duration-300"
         />
         <Image
           src={Vineyard}
           alt="Altitude"
-          className="absolute top-[40%] left-[50vw] w-[84px] -translate-x-[50%]"
+          className="absolute top-[40%] left-[50vw] w-[84px] -translate-x-[50%] hover:scale-105 transition-all duration-300"
         />
         <Image
           src={Climate}
           alt="Altitude"
-          className="absolute top-[40%] left-[25vw] w-[84px] -translate-x-[50%]"
+          className="absolute top-[40%] left-[25vw] w-[84px] -translate-x-[50%] hover:scale-105 transition-all duration-300"
         />
       </motion.div>
     </section>
