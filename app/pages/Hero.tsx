@@ -41,7 +41,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 10, duration: 0.3}} className="">
+      <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 9, duration: 0.3}} className="">
         <Image
           id="altitude"
           src={Altitude}
