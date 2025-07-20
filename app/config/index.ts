@@ -1,5 +1,5 @@
 export const earth_zoom =
-'https://res.cloudinary.com/db4zbyipc/video/upload/v1752848003/Zoom_In_Earth_yegy7k.mp4'
+'https://res.cloudinary.com/db4zbyipc/video/upload/v1752999266/Zoom_in_Earth_1_d8bxhd.mp4'
 
 export const fratelliLogo =
 'https://res.cloudinary.com/db4zbyipc/image/upload/v1752839360/Layer_1_ia9uv7.svg'
